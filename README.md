@@ -453,6 +453,10 @@ Este proyecto se distribuye bajo la licencia MIT.
 
 **Proyecto académico 2026 - I**
 
+<<<<<<< HEAD
 Desarrollado para el curso de Sistemas Inteligentes
+=======
+Desarrollado para el curso de Sistemas Inteligentes 🥤
+>>>>>>> e1090781e783689dcf721997cd0dac7a274cb3a9
 
 </div>
