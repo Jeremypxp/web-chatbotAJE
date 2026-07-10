@@ -161,8 +161,8 @@ https://console.groq.com/keys
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/GrupoAje-ProyectoAcademico.git
-cd GrupoAje-ProyectoAcademico
+git clone https://github.com/tu-usuario/web-chatbotAJE.git
+cd web-chatbotAJE
 ```
 
 ---
@@ -250,8 +250,6 @@ Ejemplo:
 ```env
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
-
-> **Importante:** Nunca subas el archivo `.env` al repositorio.
 
 ---
 
@@ -453,8 +451,8 @@ Este proyecto se distribuye bajo la licencia MIT.
 
 <div align="center">
 
-**Proyecto académico 2026**
+**Proyecto académico 2026 - I**
 
-Desarrollado para el Grupo AJE 🥤
+Desarrollado para el curso de Sistemas Inteligentes
 
 </div>
