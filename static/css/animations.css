@@ -1,0 +1,20 @@
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-25%)}}
+
+@keyframes msgIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+@keyframes bop{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-6px)}}
+
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* ── Botón flotante del chat ── */
+@keyframes fabPulse{
+  0%{box-shadow:0 0 0 0 rgba(232,135,10,.45)}
+  70%{box-shadow:0 0 0 14px rgba(232,135,10,0)}
+  100%{box-shadow:0 0 0 0 rgba(232,135,10,0)}
+}
+
+@keyframes fabPanelIn{
+  from{opacity:0;transform:translateY(24px) scale(.96)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}

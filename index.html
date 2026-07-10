@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Grupo AJE - Chatbot IA | Proyecto académico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/static/css/style.css"/>
+<link rel="stylesheet" href="/static/css/chatbot.css"/>
+<link rel="stylesheet" href="/static/css/animations.css"/>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">🚚 Compras a partir de S/30 con Delivery Gratis &nbsp;·&nbsp; 📞 01 604-4140 &nbsp;·&nbsp; 💬 936390210</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <span class="logo-box">AJE</span>
+      <span>GROUP</span>
+    </div>
+    <div class="nav-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="site-search" placeholder="¿Qué producto estás buscando?"/>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#presencia">Presencia</a></li>
+      <li><a href="#mision">Misión</a></li>
+      <li><a href="#chatbot" class="nav-cta">💬 Asistente IA</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- SUBNAV -->
+<div class="subnav">
+  <div class="subnav-inner">
+    <div class="subnav-item active">Todas las categorías</div>
+    <div class="subnav-item">Aguas y Bebidas</div>
+    <div class="subnav-item">Gaseosas</div>
+    <div class="subnav-item">Jugos y Néctares</div>
+    <div class="subnav-item">Energizantes</div>
+    <div class="subnav-item">Isotónicas</div>
+    <div class="subnav-item">Tés</div>
+    <div class="subnav-item">Distribución</div>
+    <div class="subnav-item">Proveedores</div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="hero-eyebrow">Desde Ayacucho al mundo</p>
+      <h1 class="hero-h1">Bebidas que <em>mueven el mundo</em></h1>
+      <p class="hero-sub">Somos una de las mayores empresas de bebidas a nivel global, llevando calidad y sabor a más de 28 países con un compromiso claro: bienestar sostenible para todos.</p>
+      <div class="hero-actions">
+        <a href="#productos" class="btn-primary">Ver productos →</a>
+        <a href="#chatbot" class="btn-ghost">💬 Habla con nuestro asistente</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-card">
+        <div class="stat-num">28<b>+</b></div>
+        <div class="stat-label">Países con presencia activa</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">1.5<b>M</b></div>
+        <div class="stat-label">Puntos de venta en el mundo</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">32</div>
+        <div class="stat-label">Plantas de producción</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">13<b>K</b></div>
+        <div class="stat-label">Empleados directos</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANDS BAR -->
+<div class="brands-bar">
+  <span class="brands-bar-label">Nuestras marcas</span>
+  <div class="brands-track">
+    <div class="brands-scroll">
+      <span class="brand-tag">BIG COLA</span><span class="brand-tag">CIELO</span><span class="brand-tag">VOLT</span><span class="brand-tag">SPORADE</span><span class="brand-tag">FREE TEA</span><span class="brand-tag">PULP</span><span class="brand-tag">CIFRUT</span><span class="brand-tag">KOLA REAL</span><span class="brand-tag">BIO</span><span class="brand-tag">HEY FIT</span><span class="brand-tag">ORO</span>
+      <span class="brand-tag">BIG COLA</span><span class="brand-tag">CIELO</span><span class="brand-tag">VOLT</span><span class="brand-tag">SPORADE</span><span class="brand-tag">FREE TEA</span><span class="brand-tag">PULP</span><span class="brand-tag">CIFRUT</span><span class="brand-tag">KOLA REAL</span><span class="brand-tag">BIO</span><span class="brand-tag">HEY FIT</span><span class="brand-tag">ORO</span>
+      <span class="brand-tag">BIG COLA</span><span class="brand-tag">CIELO</span><span class="brand-tag">VOLT</span><span class="brand-tag">SPORADE</span><span class="brand-tag">FREE TEA</span><span class="brand-tag">PULP</span><span class="brand-tag">CIFRUT</span><span class="brand-tag">KOLA REAL</span><span class="brand-tag">BIO</span><span class="brand-tag">HEY FIT</span><span class="brand-tag">ORO</span>
+    </div>
+  </div>
+</div>
+
+<!-- NOSOTROS -->
+<section class="about" id="nosotros">
+  <div class="container">
+    <p class="section-eye reveal">Nuestra historia</p>
+    <h2 class="section-h2 reveal">Una empresa nacida<br>del esfuerzo familiar</h2>
+    <div class="about-grid">
+      <div class="reveal">
+        <p class="section-sub">El Grupo AJE comenzó en 1988 en Ayacucho, cuando la familia Añaños Jeri decidió producir bebidas artesanales en plena época de violencia social. Lo que inició como una necesidad local se convirtió en una de las multinacionales más grandes de Latinoamérica.</p>
+        <div class="about-body">
+          <p>Con una estrategia centrada en ofrecer productos de calidad a precios justos para los segmentos populares (estratos C, D y E), AJE conquistó primero el mercado peruano y luego se expandió a toda América Latina, Asia y África.</p>
+          <p>Hoy, el Grupo AJE es considerado el <strong>cuarto productor mundial de bebidas sin alcohol por volumen</strong> según Euromonitor International, con más de 240,000 empleos indirectos generados en todo el mundo.</p>
+        </div>
+      </div>
+      <div class="about-timeline reveal">
+        <div class="timeline-item">
+          <div class="tl-year">1988</div>
+          <div class="tl-text"><strong>Fundación en Ayacucho.</strong> La familia Añaños Jeri lanza Kola Real desde el patio de su casa, en plena crisis sociopolítica.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-year">1996</div>
+          <div class="tl-text"><strong>AJEPER S.A.</strong> Se formaliza la razón social y se consolida la expansión a otras regiones del Perú.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-year">2000s</div>
+          <div class="tl-text"><strong>Expansión latinoamericana.</strong> AJE ingresa a Venezuela, Ecuador, México y otros mercados de la región.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-year">2010s</div>
+          <div class="tl-text"><strong>Presencia global.</strong> Operaciones en Asia y África. Portafolio diversificado con agua, energizantes, jugos y tés.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-year">Hoy</div>
+          <div class="tl-text"><strong>28 países, 32 plantas, 1.56 M de puntos de venta.</strong> Un referente de emprendimiento peruano en el mundo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section class="products" id="productos">
+  <div class="container">
+    <p class="section-eye reveal">Portafolio</p>
+    <h2 class="section-h2 reveal">Nuestras marcas</h2>
+    <p class="section-sub reveal">Bebidas para cada momento, cada gusto y cada mercado. Calidad accesible para todos.</p>
+    <div class="products-grid">
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/LogoBigCola.webp" alt="Big Cola"/></div>
+        <div class="product-name">Big Cola</div><div class="product-cat">Gaseosa</div><div class="product-badge">Icónica</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/KolaReal.jpg" alt="Kola Real"/></div>
+        <div class="product-name">Kola Real</div><div class="product-cat">Gaseosa</div><div class="product-badge">Original</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/HeyFitLogo1.jpeg" alt="Hey Fit"/></div>
+        <div class="product-name">Hey Fit</div><div class="product-cat">Soda evolution</div><div class="product-badge">Nuevo</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/CieloLogo.jpg" alt="Cielo"/></div>
+        <div class="product-name">Cielo</div><div class="product-cat">Agua embotellada</div><div class="product-badge">Natural</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/Pulplogo.webp" alt="Pulp"/></div>
+        <div class="product-name">Pulp</div><div class="product-cat">Jugo natural</div><div class="product-badge">Fruta real</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/CifrutLogo.png" alt="Cifrut"/></div>
+        <div class="product-name">Cifrut</div><div class="product-cat">Néctar</div><div class="product-badge">Vitaminas</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/VoltLogo.png" alt="Volt"/></div>
+        <div class="product-name">Volt</div><div class="product-cat">Energizante</div><div class="product-badge">Potencia</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/SporadeLogo.svg" alt="Sporade"/></div>
+        <div class="product-name">Sporade</div><div class="product-cat">Isotónica</div><div class="product-badge">Deporte</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/FreeTeaLogo.jpg" alt="Free Tea"/></div>
+        <div class="product-name">Free Tea</div><div class="product-cat">Té</div><div class="product-badge">Bienestar</div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-icon-wrap"><img class="product-icon" src="/static/img/BioLogo.png" alt="BIO"/></div>
+        <div class="product-name">BIO</div><div class="product-cat">Salud</div><div class="product-badge">Saludable</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRESENCIA -->
+<section class="presence" id="presencia">
+  <div class="container">
+    <p class="section-eye reveal">Alcance global</p>
+    <h2 class="section-h2 reveal">En cada rincón del planeta</h2>
+    <p class="section-sub reveal">De Ayacucho al mundo. Nuestra red de distribución es uno de los sistemas logísticos más eficientes de la industria de bebidas.</p>
+    <div class="presence-grid">
+      <div class="presence-card reveal"><div class="pc-num">28<b>+</b></div><div class="pc-label">Países en América Latina, Asia y África</div></div>
+      <div class="presence-card reveal"><div class="pc-num">32</div><div class="pc-label">Plantas de producción activas</div></div>
+      <div class="presence-card reveal"><div class="pc-num">120<b>+</b></div><div class="pc-label">Centros de distribución propios</div></div>
+      <div class="presence-card reveal"><div class="pc-num">1.5<b>M</b></div><div class="pc-label">Puntos de venta en el mundo</div></div>
+      <div class="presence-card reveal"><div class="pc-num">13<b>K</b></div><div class="pc-label">Empleados directos globales</div></div>
+      <div class="presence-card reveal"><div class="pc-num">240<b>K</b></div><div class="pc-label">Empleos indirectos generados</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MISIÓN -->
+<section class="mission" id="mision">
+  <div class="container">
+    <p class="section-eye reveal">Propósito</p>
+    <h2 class="section-h2 reveal">Lo que nos guía cada día</h2>
+    <div class="mv-grid">
+      <div class="mv-card reveal">
+        <div class="mv-tag">Misión</div>
+        <div class="mv-text">Crear oportunidades que generen de manera sostenible bienestar y salud.</div>
+        <div class="mv-body">Cada producto que elaboramos y cada mercado que ingresamos está alineado con este propósito. No solo vendemos bebidas: construimos bienestar.</div>
+      </div>
+      <div class="mv-card reveal">
+        <div class="mv-tag">Visión</div>
+        <div class="mv-text">Ser líderes en productos y marcas saludables y valoradas.</div>
+        <div class="mv-body">Aspiramos a ser reconocidos globalmente no solo por nuestro volumen, sino por la calidad y el valor que generamos en las comunidades donde operamos.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHATBOT (sección informativa + widget embebido) -->
+<section class="chat-section" id="chatbot">
+  <div class="chat-section-inner">
+    <div class="chat-intro reveal">
+      <p class="section-eye">Asistente inteligente</p>
+      <h2 class="section-h2">Respuestas al instante,<br>sin tiempos de espera</h2>
+      <p class="section-sub">Nuestro asistente virtual basado en IA atiende tus consultas sobre productos, distribución, proveedores e información corporativa las 24 horas.</p>
+      <div class="chat-features">
+        <div class="cf"><div class="cf-icon">⚡</div><div class="cf-text"><h4>Respuesta inmediata</h4><p>Sin formularios ni esperas de horas o días.</p></div></div>
+        <div class="cf"><div class="cf-icon">🧠</div><div class="cf-text"><h4>IA con contexto AJE</h4><p>Entrenado con información real sobre productos y operaciones.</p></div></div>
+        <div class="cf"><div class="cf-icon">🌐</div><div class="cf-text"><h4>Disponible 24/7</h4><p>Sin días festivos ni carga operativa. Siempre listo.</p></div></div>
+        <div class="cf"><div class="cf-icon">💬</div><div class="cf-text"><h4>Conversación natural</h4><p>Escribe como hablas. Sin menús complicados.</p></div></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="chat-widget" id="chat-inline">
+        <div class="cw-header">
+          <div class="cw-avatar">🤖</div>
+          <div>
+            <div class="cw-name">Asistente Virtual AJE</div>
+            <div class="cw-status">En línea ahora</div>
+          </div>
+          <button class="cw-reset">Nueva conversación</button>
+        </div>
+        <div class="cw-messages"></div>
+        <div class="cw-chips">
+          <div class="chip" data-chip="¿Qué productos tiene el Grupo AJE?">🥤 Productos</div>
+          <div class="chip" data-chip="¿Cómo puedo ser distribuidor?">🚚 Distribución</div>
+          <div class="chip" data-chip="¿Cómo contacto a AJE?">📞 Contacto</div>
+          <div class="chip" data-chip="¿Cómo ser proveedor de AJE?">🏭 Proveedores</div>
+          <div class="chip" data-chip="¿En qué países opera AJE?">🌎 Países</div>
+          <div class="chip" data-chip="¿Cuál es la misión del Grupo AJE?">🎯 Misión</div>
+        </div>
+        <div class="cw-err"></div>
+        <div class="cw-input-area">
+          <input class="cw-input" type="text" placeholder="Escribe tu consulta..." autocomplete="off"/>
+          <button class="cw-send" aria-label="Enviar">
+            <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+        <div class="cw-foot">Chatbot AJE · Proyecto académico © 2026</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-team">
+    <div class="footer-team-inner">
+      <p class="footer-team-label">Proyecto académico desarrollado por</p>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">GC</div>
+          <div class="team-name">Capcha Flores, Geremy</div>
+          <div class="team-role">Desarrollador</div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">LL</div>
+          <div class="team-name">Leandro Menacho, Leonardo</div>
+          <div class="team-role">Desarrollador</div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">JP</div>
+          <div class="team-name">Pachas Padilla, Jeremy</div>
+          <div class="team-role">Desarrollador</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-inner">
+    <div class="footer-logo"><span class="logo-box">AJE</span> GROUP</div>
+    <div class="footer-links">
+      <a href="#">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#productos">Productos</a>
+      <a href="#presencia">Presencia</a>
+      <a href="https://www.ajedelivery.pe" target="_blank">AJE Delivery</a>
+      <a href="https://www.ajegroup.com" target="_blank">ajegroup.com</a>
+    </div>
+    <div class="footer-copy">
+      © 2026 AJEPER S.A. · RUC 20331061655 · Lima, Perú
+      <br/>
+      <span class="footer-disclaimer">Este es un proyecto desarrollado con fines académicos y de aprendizaje. No representa un sitio oficial del Grupo AJE.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ── BOTÓN FLOTANTE DEL CHAT (siempre visible, superpuesto al contenido) ── -->
+<button class="chat-fab" id="chat-fab-btn" aria-label="Abrir asistente virtual" aria-expanded="false">
+  <svg class="fab-icon-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+  <svg class="fab-icon-close" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  <span class="chat-fab-badge"></span>
+</button>
+
+<div class="chat-fab-panel" id="chat-fab-panel">
+  <div class="chat-widget" id="chat-fab-widget">
+    <div class="cw-header">
+      <div class="cw-avatar">🤖</div>
+      <div>
+        <div class="cw-name">Asistente Virtual AJE</div>
+        <div class="cw-status">En línea ahora</div>
+      </div>
+      <button class="cw-reset">Nueva conversación</button>
+      <button class="cw-close" aria-label="Cerrar chat">
+        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="cw-messages"></div>
+    <div class="cw-chips">
+      <div class="chip" data-chip="¿Qué productos tiene el Grupo AJE?">🥤 Productos</div>
+      <div class="chip" data-chip="¿Cómo puedo ser distribuidor?">🚚 Distribución</div>
+      <div class="chip" data-chip="¿Cómo contacto a AJE?">📞 Contacto</div>
+      <div class="chip" data-chip="¿Cómo ser proveedor de AJE?">🏭 Proveedores</div>
+      <div class="chip" data-chip="¿En qué países opera AJE?">🌎 Países</div>
+      <div class="chip" data-chip="¿Cuál es la misión del Grupo AJE?">🎯 Misión</div>
+    </div>
+    <div class="cw-err"></div>
+    <div class="cw-input-area">
+      <input class="cw-input" type="text" placeholder="Escribe tu consulta..." autocomplete="off"/>
+      <button class="cw-send" aria-label="Enviar">
+        <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      </button>
+    </div>
+    <div class="cw-foot">Powered by IA · Grupo AJE © 2026</div>
+  </div>
+</div>
+
+<script src="/static/js/scroll.js"></script>
+<script src="/static/js/chatbot.js"></script>
+<script src="/static/js/main.js"></script>
+</body>
+</html>

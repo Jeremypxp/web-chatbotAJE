@@ -1,0 +1,45 @@
+{
+  "empresa": {
+    "nombre": "Grupo AJE",
+    "razon_social": "AJEPER S.A.",
+    "ruc": "20331061655",
+    "fundacion": 1988,
+    "lugar_fundacion": "Ayacucho, Perú",
+    "fundadores": "Familia Añaños Jeri",
+    "direccion": "Av. La Paz N°131, Huachipa, Lima",
+    "web": "www.ajegroup.com",
+    "delivery": "www.ajedelivery.pe",
+    "email": "ajedelivery.pe@babelsac.pe",
+    "telefono": "01 604-4140"
+  },
+  "mision": "Crear oportunidades que generen de manera sostenible bienestar y salud.",
+  "vision": "Ser líderes en productos y marcas saludables y valoradas.",
+  "presencia_global": {
+    "paises": 28,
+    "puntos_de_venta": "1,560,000",
+    "plantas": 32,
+    "centros_distribucion": "120+",
+    "empleados_directos": "13,000",
+    "empleos_indirectos": "240,000"
+  },
+  "historia": [
+    { "anio": "1988", "hecho": "Fundación en Ayacucho. La familia Añaños Jeri lanza Kola Real desde el patio de su casa, en plena crisis sociopolítica." },
+    { "anio": "1996", "hecho": "Se formaliza la razón social AJEPER S.A. y se consolida la expansión a otras regiones del Perú." },
+    { "anio": "2000s", "hecho": "Expansión latinoamericana: Venezuela, Ecuador, México y otros mercados de la región." },
+    { "anio": "2010s", "hecho": "Presencia global en Asia y África. Portafolio diversificado con agua, energizantes, jugos y tés." },
+    { "anio": "Hoy", "hecho": "28 países, 32 plantas, 1.56 M de puntos de venta." }
+  ],
+  "productos": [
+    { "nombre": "Big Cola", "categoria": "Gaseosa" },
+    { "nombre": "Kola Real", "categoria": "Gaseosa" },
+    { "nombre": "Hey Fit", "categoria": "Soda evolution" },
+    { "nombre": "Oro", "categoria": "Gaseosa" },
+    { "nombre": "Cielo", "categoria": "Agua embotellada" },
+    { "nombre": "Pulp", "categoria": "Jugo natural" },
+    { "nombre": "Cifrut", "categoria": "Néctar" },
+    { "nombre": "Volt", "categoria": "Energizante" },
+    { "nombre": "Sporade", "categoria": "Isotónica" },
+    { "nombre": "Free Tea", "categoria": "Té" },
+    { "nombre": "BIO", "categoria": "Salud" }
+  ]
+}

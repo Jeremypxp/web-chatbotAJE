@@ -1,0 +1,36 @@
+{
+  "proyecto": "GrupoAje-ProyectoAcademico",
+  "descripcion": "Sitio institucional del Grupo AJE con asistente virtual (chatbot) basado en IA.",
+  "backend": {
+    "runtime": "Python 3",
+    "framework": "Flask",
+    "proveedor_ia": "Groq (modelo llama-3.3-70b-versatile)"
+  },
+  "frontend": {
+    "lenguaje": "JavaScript (vanilla, sin frameworks)"
+  },
+  "modulos": {
+    "chatbot": [
+      "chatbot.py — Controlador principal del chatbot",
+      "busqueda.py — Busca información del proyecto (conocimiento.json / faq.json)",
+      "historial.py — Historial de conversación",
+      "inferencia.py — Procesa consultas con IA (Groq)",
+      "prompts.py — Prompt del sistema",
+      "contexto.py — Información que conocerá la IA"
+    ],
+    "services": [
+      "ia_service.py — Conexión con la API de Groq",
+      "data_service.py — Lectura de archivos JSON"
+    ],
+    "routes": [
+      "web_routes.py — Sirve el sitio y los archivos estáticos",
+      "chatbot_routes.py — Endpoint POST /chat"
+    ],
+    "static": {
+      "css": ["style.css", "chatbot.css", "animations.css"],
+      "js": ["main.js", "chatbot.js", "scroll.js"],
+      "img": ["logo.png", "hero.png", "chatbot.png", "icons/"],
+      "fonts": []
+    }
+  }
+}
