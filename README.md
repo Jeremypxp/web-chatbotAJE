@@ -161,8 +161,8 @@ https://console.groq.com/keys
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/GrupoAje-ProyectoAcademico.git
-cd GrupoAje-ProyectoAcademico
+git clone https://github.com/tu-usuario/web-chatbotAJE.git
+cd web-chatbotAJE
 ```
 
 ---
