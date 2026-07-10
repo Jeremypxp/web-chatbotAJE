@@ -111,6 +111,37 @@ nav{
   100%{box-shadow:0 0 0 0 rgba(232,135,10,0)}
 }
 
+/* ── DROPDOWN DE SUGERENCIAS DE BÚSQUEDA ── */
+.nav-search{position:relative}
+.search-dropdown{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;
+  background:var(--white);
+  border-radius:14px;
+  box-shadow:0 16px 40px rgba(0,0,0,.18);
+  border:1px solid var(--border);
+  overflow:hidden;
+  display:none;
+  z-index:950;
+  max-height:340px;overflow-y:auto;
+}
+.search-dropdown.visible{display:block}
+.sd-item{
+  display:flex;align-items:center;
+  padding:10px 16px;cursor:pointer;
+  transition:background .12s;
+}
+.sd-item:hover,.sd-item.active{background:var(--green-light)}
+.sd-item + .sd-item{border-top:1px solid var(--border)}
+
+.sd-text{display:flex;flex-direction:column;min-width:0}
+.sd-title{font-size:.85rem;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sd-title mark{background:rgba(232,135,10,.28);color:inherit;border-radius:3px;padding:0 1px}
+.sd-sub{font-size:.72rem;color:var(--muted)}
+.sd-empty{
+  padding:16px;text-align:center;
+  font-size:.82rem;color:var(--muted);
+}
+
 /* ── Toast "no resultados" ── */
 .search-toast{
   position:fixed;bottom:24px;left:50%;
