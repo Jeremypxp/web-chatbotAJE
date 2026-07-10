@@ -455,6 +455,6 @@ Este proyecto se distribuye bajo la licencia MIT.
 
 **Proyecto académico 2026**
 
-Desarrollado para el Grupo AJE 🥤
+Desarrollado para el curso de Sistemas Inteligentes 🥤
 
 </div>
